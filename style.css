@@ -1,0 +1,130 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-image: url(./assets/images/wallhaven-39mppy_1920x1080.png );
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    position: absolute;
+    right: 0;
+    margin: 20px 50px 0 0;
+}
+
+.login {
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+.account {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.logo-e {
+    color: red;
+    height: 150px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.headertext {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.location {
+    height: 50px;
+    padding: 5px;
+    width: 300px;
+}
+.header .searchoption{
+    justify-content: space-evenly;
+}
+
+.searchbar input {
+    height: 50px;
+    padding: 5px;
+    width: 300px;
+}
+.div-img {
+    display: inline;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.footer {
+    width: 90%;
+    margin: auto;
+}
+.footer h1{
+    margin-top: 20px;
+}
+
+.footer h3{
+    margin-top: 5px;
+}
+.qs-boxes {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.footer .heading {
+    color: #192f60;
+}
+
+.qs-box {
+    display: flex;
+    width: 200px;
+}
+.div-img {
+    float: left;
+    margin: 10px;
+}
+
+.box-heading {
+    padding: 5px;
+    margin-left: 5px;
+    color: #192f60;
+}
+
+#box {
+    display: block;
+    text-align: left;
+    width: 300px;
+    box-shadow: 2px 2px 3px black;
+}
+
+@media (max-width: 600px) {
+    .headertext {
+        text-align: center;
+    }
+    .searchoption .location {
+        display: block;
+        margin: 15px 5px;
+        width: 100%;
+    }
+
+    .searchoption .searchbar {
+        width: 100%;
+    }
+}
